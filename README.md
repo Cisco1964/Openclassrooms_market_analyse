@@ -43,13 +43,13 @@ extraction_produit.csv
 Choisir n'importe quelle catégorie sur le site de Books to Scrape, écrire un script Python qui consulte la page de la catégorie choisie, et extrait l'URL de la page Produit de chaque livre appartenant à cette catégorie. Extraire les données produit de tous les livres de la catégorie choisie, et écrire les données dans un seul fichier CSV.
 
 # Catégorie choisi
-Sequential-art
+Saisir une catégorie parmi les 50 catégories du site
 
 # Nom du programme	
 categorie.py
 
 # Fichier en sortie 	
-category_sequential-art.csv
+Nom de la catégorie.csv
 
 # 3EME PARTIE : EXTRACTION DE TOUTES LES CATEGORIES
 Ecrire un script qui consulte le site de Books to Scrape, extrait toutes les catégories de livres disponibles, puis extrait les informations produit de tous les livres appartenant à toutes les différentes catégories et écrire les données dans un fichier CSV distinct pour chaque catégorie de livres. 
@@ -60,7 +60,7 @@ Télécharger et enregistrer le fichier image de chaque page Produit.
 toutes_categories.py
 
 # Fichier en sortie 	
-Nom de la categorie.csv
+Nom de la categorie.csv /
 Nom du produit.jpg
 
 
