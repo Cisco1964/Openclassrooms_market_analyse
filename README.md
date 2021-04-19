@@ -4,7 +4,23 @@
 projet OPENCLASSROOMS : Utilisez les bases de Python pour l'analyse de marché
 Francis CAZERES
 
-# ANALYSE DU MARCHÉ
+# ANALYSE DU MARCHÉ	
+
+# PRÉ-REQUIS  
+	Création environemment virtuel
+	Pip install BEAUTIFULSOUP4
+	Pip install REQUESTS
+	
+# STRUCTURE DU FICHIER EN SORTIE
+    .universal_ product_code (upc)
+    .title
+    .price_including_tax
+    .price_excluding_tax
+    .number_available
+    .product_description
+    .category
+    .review_rating
+    .image_url
 
 # INFORMATIONS GÉNÉRALES
 Vous êtes analyste marketing chez Books Online, une importante librairie en ligne spécialisée dans les livres d'occasion. Dans le cadre de vos fonctions, vous essayez de suivre manuellement les prix des livres d'occasion sur les sites web de vos concurrents, mais cela représente trop de travail et vous n'arrivez pas à y faire face  : il y a trop de livres et trop de librairies en ligne  ! Vous et votre équipe avez décidé d'automatiser cette tâche laborieuse via un programme (un scraper) développé en Python, capable d'extraire les informations tarifaires d'autres librairies en ligne. 
@@ -12,32 +28,40 @@ Vous êtes analyste marketing chez Books Online, une importante librairie en lig
 Sam, votre responsable d'équipe, vous a chargé de développer une version bêta de ce système pour suivre les prix des livres chez Books to Scrape, un revendeur de livres en ligne. En pratique, dans cette version bêta, votre programme n'effectuera pas une véritable surveillance en temps réel des prix sur la durée. Il s'agira simplement d'une application exécutable à la demande visant à récupérer les prix au moment de son exécution.
 
 # 1ÈRE PARTIE : EXTRACTION D'UN PRODUIT
-J'espère que vous pourrez m'aider à créer un système de surveillance des prix. Pour élaborer une version bêta du système limitée à un seul revendeur, le mieux est probablement de suivre les étapes que j'ai définies ci-dessous.
+Choisir n'importe quelle page Produit sur le site de Books to Scrape et écrire les données dans un fichier CSV.
 
-Choisissez n'importe quelle page Produit sur le site de Books to Scrape. Écrivez un script Python qui visite cette page et en extrait les informations suivantes :
+# Produit choisi
+its-only-the-himalayas
 
-    product_page_url
-    universal_ product_code (upc)
-    title
-    price_including_tax
-    price_excluding_tax
-    number_available
-    product_description
-    category
-    review_rating
-    image_url
-
-Écrivez les données dans un fichier CSV qui utilise les champs ci-dessus comme en-têtes de colonnes.
-
-# PRÉ-REQUIS  
-	Création environemment virtuel
-	Pip install BEAUTIFULSOUP4
-	Pip install REQUESTS
-
-# LANCEMENT DU PROGRAMME	
+# Nom du programme	
 recuperation_produit.py
 
 # Fichier en sortie 	
 extraction_produit.csv
+
+# 2EME PARTIE : EXTRACTION D'UNE CATEGORIE
+Choisir n'importe quelle catégorie sur le site de Books to Scrape, écrire un script Python qui consulte la page de la catégorie choisie, et extrait l'URL de la page Produit de chaque livre appartenant à cette catégorie. Extraire les données produit de tous les livres de la catégorie choisie, et écrire les données dans un seul fichier CSV.
+
+# Catégorie choisi
+Sequential-art
+
+# Nom du programme	
+categorie.py
+
+# Fichier en sortie 	
+category_sequential-art.csv
+
+# 3EME PARTIE : EXTRACTION DE TOUTES LES CATEGORIES
+Ecrire un script qui consulte le site de Books to Scrape, extrait toutes les catégories de livres disponibles, puis extrait les informations produit de tous les livres appartenant à toutes les différentes catégories et écrire les données dans un fichier CSV distinct pour chaque catégorie de livres. 
+
+Télécharger et enregistrer le fichier image de chaque page Produit.
+
+# Nom du programme	
+toutes_categories.py
+
+# Fichier en sortie 	
+Nom de la categorie.csv
+Nom du produit.jpg
+
 
 
