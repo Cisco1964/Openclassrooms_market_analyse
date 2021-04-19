@@ -42,7 +42,7 @@ extraction_produit.csv
 # 2EME PARTIE : EXTRACTION D'UNE CATEGORIE
 Choisir n'importe quelle catégorie sur le site de Books to Scrape, écrire un script Python qui consulte la page de la catégorie choisie, et extrait l'URL de la page Produit de chaque livre appartenant à cette catégorie. Extraire les données produit de tous les livres de la catégorie choisie, et écrire les données dans un seul fichier CSV.
 
-# Catégorie choisi
+# Catégorie choisie
 Saisir une catégorie parmi les 50 catégories du site
 
 # Nom du programme	
