@@ -14,8 +14,8 @@ def entete_csv(rows):
              'price_excluding_tax', 'number_available','product_description', 'category', 'review_rating', 'image_url'])
 
 def ecriture_csv(cat, rows):
-    # Lecture rows pour écriture
     global n
+    # Lecture rows pour écriture
     for row in rows:
         # ecriture csv des livres
         filecsv = os.path.join(os.path.dirname(os.path.abspath(__file__)), "categories_csv", "{}.csv").format(cat)
