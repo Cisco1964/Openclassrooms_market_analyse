@@ -7,7 +7,7 @@ Francis CAZERES
 # ANALYSE DU MARCHÉ	
 
 # PRÉ-REQUIS  
-	Création environemment virtuel
+	Création environemment virtuel : env
 	Pip install BEAUTIFULSOUP4
 	Pip install REQUESTS
 	
@@ -34,7 +34,7 @@ Choisir n'importe quelle page Produit sur le site de Books to Scrape et écrire 
 its-only-the-himalayas
 
 # Nom du programme	
-recuperation_produit.py
+P2_01_produit.py
 
 # Fichier en sortie 	
 extraction_produit.csv
@@ -46,10 +46,10 @@ Choisir n'importe quelle catégorie sur le site de Books to Scrape, écrire un s
 Saisir une catégorie parmi les 50 catégories du site
 
 # Nom du programme	
-categorie.py
+P2_02_categorie.py
 
 # Fichier en sortie 	
-Nom de la catégorie.csv
+nom de la catégorie.csv
 
 # 3EME PARTIE : EXTRACTION DE TOUTES LES CATEGORIES
 Ecrire un script qui consulte le site de Books to Scrape, extrait toutes les catégories de livres disponibles, puis extrait les informations produit de tous les livres appartenant à toutes les différentes catégories et écrire les données dans un fichier CSV distinct pour chaque catégorie de livres. 
@@ -57,11 +57,15 @@ Ecrire un script qui consulte le site de Books to Scrape, extrait toutes les cat
 Télécharger et enregistrer le fichier image de chaque page Produit.
 
 # Nom du programme	
-toutes_categories.py
+P2_02_toutes_categories.py
+
+# Pré-requis
+Création d'un repertoire pour le dépot de toutes les catégories en csv : categorie.csv 
+Création d'un repertoire pour le dépot de toutes les images du site : images
 
 # Fichier en sortie 	
-Nom de la categorie.csv /
-Nom du produit.jpg
+categorie_csv/nom de la catégorie.csv
+images/nom du produit.jpg
 
 
 
