@@ -2,7 +2,7 @@
 
 # Auteur
 projet OPENCLASSROOMS : Utilisez les bases de Python pour l'analyse de marché
-Francis CAZERES
+Auteur : Francis CAZERES
 
 # ANALYSE DU MARCHÉ	
 
@@ -26,7 +26,7 @@ Francis CAZERES
 Vous êtes analyste marketing chez Books Online, une importante librairie en ligne spécialisée dans les livres d'occasion. Dans le cadre de vos fonctions, vous essayez de suivre manuellement les prix des livres d'occasion sur les sites web de vos concurrents, mais cela représente trop de travail et vous n'arrivez pas à y faire face  : il y a trop de livres et trop de librairies en ligne  ! Vous et votre équipe avez décidé d'automatiser cette tâche laborieuse via un programme (un scraper) développé en Python, capable d'extraire les informations tarifaires d'autres librairies en ligne. 
 
 # 1ÈRE PARTIE : EXTRACTION D'UN PRODUIT
-Choisir n'importe quelle page Produit sur le site de Books to Scrape et écrire les données dans un fichier CSV.
+Choisir n'importe quelle page Produit sur le site de Books to Scrape et écrire les données dans un fichier format csv.
 
 # Produit choisi
 its-only-the-himalayas
@@ -58,12 +58,12 @@ Télécharger et enregistrer le fichier image de chaque page Produit.
 P2_03_toutes_categories.py
 
 # Pré-requis
-Création d'un repertoire pour le dépot de toutes les catégories en csv : categories.csv 
-Création d'un repertoire pour le dépot de toutes les images du site : images
+Création d'un répertoire pour le dépot de toutes les catégories en csv : categories_csv 
+Création d'un répertoire pour le dépot de toutes les images du site : images
 
 # Fichier en sortie 	
 categories_csv/nom de la catégorie.csv
-images/XXXX_nom du produit.jpg (XXXX) 
+images/XXXX_nom du produit.jpg (XXXX = compteur nombre d'image) 
 
 
 
