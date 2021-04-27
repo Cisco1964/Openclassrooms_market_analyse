@@ -63,6 +63,7 @@ Création d'un répertoire pour le dépot de toutes les images du site : images
 
 # Fichier en sortie 	
 categories_csv/nom de la catégorie.csv
+
 images/XXXX_nom du produit.jpg (XXXX = compteur nombre d'image) 
 
 
