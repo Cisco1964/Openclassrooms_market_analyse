@@ -2,6 +2,7 @@
 
 # Auteur
 projet OPENCLASSROOMS : Utilisez les bases de Python pour l'analyse de marché
+
 Auteur : Francis CAZERES
 
 # ANALYSE DU MARCHÉ	
@@ -59,6 +60,7 @@ P2_03_toutes_categories.py
 
 # Pré-requis
 Création d'un répertoire pour le dépot de toutes les catégories en csv : categories_csv 
+
 Création d'un répertoire pour le dépot de toutes les images du site : images
 
 # Fichier en sortie 	
